@@ -54,5 +54,8 @@
   "volta": {
     "node": "20.19.5",
     "yarn": "4.10.3"
+  },
+  "dependencies": {
+    "@asod/core": "^0.1.0-canary.2"
   }
 }
