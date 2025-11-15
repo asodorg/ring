@@ -1,0 +1,18 @@
+import { type Config } from 'jest';
+
+const config: Config = {
+  clearMocks: true,
+  collectCoverage: true,
+  collectCoverageFrom: [
+    'src/**/*.{js,ts}',
+    '!**/*.d.ts',
+    '!**/node_modules/**',
+  ],
+  coverageDirectory: 'coverage',
+  passWithNoTests: true,
+  preset: 'ts-jest',
+  testEnvironment: 'node',
+};
+
+// eslint-disable-next-line no-restricted-exports
+export default config;
